@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html lang="eg">
+    <head>
+         <!-- REACT LIBRARY -->
+        <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+        <!-- REACT DOM LIBRARY -->
+        <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+        <!-- BABEL LIBRARY -->
+        <script src=" https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    </head>
+    <body>
+
+        <div id="app"></div>
+        
+
+        <script type="text/babel">
+            function App(){
+                return (
+                    <div>Hello!</div>
+                );
+            }
+            ReactDom.render(<App/>, document.querySelector('#app'));
+
+        </script>
+    </body>
+</html>
